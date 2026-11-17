@@ -8,7 +8,7 @@ Open `index.html` in a browser. The category and legal pages are separate HTML f
 
 ## Updating the edit
 
-The category names, page copy and placeholder cards are currently configured in `app.js` near the top in the `categories` object. When adding a real recommendation, use a genuine product image you have permission to publish, a verified current price (or omit the price), retailer name, short factual description, and the affiliate URL supplied by the retailer. Add the required disclosure close to affiliate links. Do not describe AVENLO as an Amazon Associate until Amazon has approved the account.
+Category page content and placeholder cards are written directly into each category HTML file so pages remain visible if JavaScript does not run. Search, filtering and the mobile menu are enhanced by `app.js`. When adding a real recommendation, use a genuine product image you have permission to publish, a verified current price (or omit the price), retailer name, short factual description, and the affiliate URL supplied by the retailer. Add the required disclosure close to affiliate links. Do not describe AVENLO as an Amazon Associate until Amazon has approved the account.
 
 ## Before launch
 
@@ -24,3 +24,4 @@ The category names, page copy and placeholder cards are currently configured in 
 Cloudflare Pages supports static HTML deployment and allows custom domains. A Cloudflare account and an authenticated dashboard/CLI session are required to publish. The account owner must complete sign-in and authorize the site upload; never put passwords or API tokens in chat. For this plain site, use no build command and set `AVENLO` as the output directory (or upload the folder's contents). See the [Cloudflare Pages static HTML guide](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/) and [plan limits](https://developers.cloudflare.com/pages/platform/limits/).
 
 The site has not been published. No hosting account was connected during this build, so there is no verified live URL yet.
+
